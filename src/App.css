@@ -1,0 +1,35 @@
+.App {
+	padding: 0 10px;
+}
+.intro.inactive {
+    color: #fff;
+    background: #0423c0;
+}
+.intro.active {
+    color: #454545;
+    background: #02a05e;
+}
+.intro.color a {
+    color: #363636;
+}
+.goods-gallery {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+	max-width: 960px;
+	gap: 10px
+}
+.goods-card {
+	width: 33.3333%;
+	max-width: 300px;
+	text-align: center;
+	background: #f0f0f0;
+}
+.goods-card header {
+	background: #d2d2d2;
+}
+.goods-card img {
+	height: 250px;
+	display: block;
+	margin: auto;
+}
